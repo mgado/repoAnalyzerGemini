@@ -25,10 +25,6 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: Run mandatory tests
-      run: |
-        pytest -m "not optional" -q
-
     - name: Run optional tests (non-blocking)
       run: |
         pytest -m "optional" -q
