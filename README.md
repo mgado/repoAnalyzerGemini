@@ -11,7 +11,8 @@ This tool uses the Google Gemini API to analyze GitHub repositories.
 ## 🚀 How to Run
 - **UI:** `cd repo_analyzer_agent; python app_core.py`
 - **CLI:** `export GEMINI_API_KEY="YOUR_API_KEY"`, `cd repo_analyzer_agent` followed by `python app_core.py --url <URL> --model <gemini_model_name>`
-Example: 
+
+📚Example: 
 ```bash
 cd repo_analyzer_agent
 python app_core.py --url https://github.com/huggingface/transformers --model gemini-2.5-flash
